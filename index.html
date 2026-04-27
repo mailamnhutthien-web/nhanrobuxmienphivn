@@ -4,7 +4,18 @@
   <title>My Free Website</title>
 </head>
 <body>
-  <h1>Hello world!</h1>
-  <p>This is my free website.</p>
+  <button onclick="doSomething()">
+    Hello
+  </button>
+
+  <p id="fah">
+    Hello
+  </p>
+
+  <script>
+    function doSomething(){
+      document.GetElementById("fah").InnerHTML = "fahh"
+    }
+  </script>
 </body>
 </html>
